@@ -1,0 +1,496 @@
+/*
+* @Author: dell
+* @Date:   2017-10-17 11:29:18
+* @Last Modified by:   dell
+* @Last Modified time: 2017-10-19 11:53:34
+*/
+@import url('base.css');
+@font-face {
+  font-family: 'iconfont';  /* project id 444258 */
+  src: url('http://at.alicdn.com/t/font_444258_arvi6ya5uerk9.eot');
+  src: url('http://at.alicdn.com/t/font_444258_arvi6ya5uerk9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_444258_arvi6ya5uerk9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_444258_arvi6ya5uerk9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_444258_arvi6ya5uerk9.svg#iconfont') format('svg');
+}
+
+.iconfont{
+	font-family: 'iconfont';
+	font-style: normal;
+	
+}
+.about{
+	/* height: 345px; */
+	/* width: 1140px; */
+	padding: 120px 0;
+	margin: 0 auto; 
+}
+.about-zi1{
+	max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+	text-align: center;
+}
+.about-zi1 h2{
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+.about-zi1 p{
+	 font-size: 14px;
+     color: #55575d;
+     line-height: 22px;
+
+}
+
+.about-tu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.about-zi{
+	/* width: 100%; */
+	height: 345px;
+	/* background: blue; */
+	
+}
+.about-zi h2{
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+.about-zi p{
+	font-size: 14px;
+    color: #55575d;
+    line-height: 24px;
+    margin: 0 0 1.75em
+}
+.ji{
+	width: 100%;
+	padding: 120px 0 90px; 
+	background-color: #f3f3f4;
+}
+ .ji .container{
+ 	margin: 0 auto;
+ }
+.ji .zi{
+	width: 100%;
+	/* height: 90px; */
+	margin: 0  auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.ji .zi h2{
+	font-size: 36px;
+	margin-bottom: 10px;
+	line-height: 1em;
+	font-weight: 700;
+    color: #0d0d0d;
+}
+.ji .zi p{
+	margin-bottom: 26px;
+	font-size: 14px;
+    line-height: 22px;
+    color: #0d0d0d;
+}
+
+.ji .tu{
+	/* width: 390px; */
+	/* height: 252px; */
+	padding:15px 15px;
+	margin:0 auto; 
+	/* background:#fff;  */
+}
+.ji .tu .tu1{
+	/* width: 360px; */
+	/* height: 162px; */
+	background-color: #fff;
+	padding: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: .25s;
+}
+.ji .tu .tu1:hover{
+	transform:translateY(-10px) ;
+
+	box-shadow:0px  10px  10px    5px  rgba(0, 0, 0, 0.25);
+}
+.ji .tu .tu1 h4{
+	font-size: 24px;
+	line-height: 1em;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin-bottom: 10px;
+}
+.ji .tu .tu1 p{
+	/* width: 300px; */
+	font-size: 14px;
+    color: #55575d;
+    line-height: 24px;
+
+}
+.zuo{
+	width: 100%;
+	padding: 120px 0 90px; 
+	background-color: #f3f3f4;
+	
+}
+.zuo .zi{
+	width: 100%;
+	/* height: 90px; */
+	margin: 0  auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.zuo .zi h2{
+	font-size: 36px;
+	margin-bottom: 10px;
+	line-height: 1em;
+	font-weight: 700;
+    color: #0d0d0d;
+}
+.zuo .zi p{
+	margin-bottom: 26px;
+	font-size: 14px;
+    line-height: 22px;
+    color: #0d0d0d;
+}
+
+.zuo{
+	width: 100%;
+	padding: 120px 0 90px; 
+	background-color: #f3f3f4;
+}
+ .zuo .container{
+ 	margin: 0 auto;
+ }
+.zuo .zi{
+	width: 100%;
+	/* height: 90px; */
+	margin: 0  auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.zuo .zi h2{
+	font-size: 36px;
+	margin-bottom: 10px;
+	line-height: 1em;
+	font-weight: 700;
+    color: #0d0d0d;
+}
+.zuo .zi p{
+	margin-bottom: 26px;
+	font-size: 14px;
+    line-height: 22px;
+    color: #0d0d0d;
+}
+
+.zuo .tu{
+	/* width: 390px; */
+	/* height: 252px; */
+	padding:15px 15px;
+	margin:0 auto; 
+	/* background:#fff;  */
+}
+.zuo .tu .tu1{
+	/* width: 360px; */
+	/* height: 162px; */
+	/* background-color: #fff; */
+	/* padding: 30px; */
+    text-align: center;
+    position: relative;
+   /*  margin-bottom: 30px; */
+    transition: .25s;
+}
+.zuo .tu .tu1 .tu2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0;
+	transition: all 1s;
+}
+.zuo .tu .tu1 .box{
+	position: absolute;
+	background: #fff;
+	left: 0 ;
+	top: 0 ;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 40px;
+	height: 40px;
+	/* opacity: 0; */
+	transition: all 1s;
+}
+.zuo .tu .tu1 .tu2:hover{
+	opacity: 0.5;
+/* 	transform:translateY(-10px) ;
+
+	box-shadow:0px  10px  10px    5px  rgba(0, 0, 0, 0.25); */
+}
+.zuo .tu1 .tu2 .box:hover{
+	transform:rotateY(180deg);
+	color: red;
+	opacity: 1;
+}
+.zuo .tu .tu1 h4{
+	font-size: 24px;
+	line-height: 1em;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin-bottom: 10px;
+}
+.zuo .tu .tu1 p{
+	/* width: 300px; */
+	font-size: 14px;
+    color: #55575d;
+    line-height: 24px;
+
+}
+
+footer .zi{
+	width: 100%;
+	/* height: 90px; */
+	margin: 0  auto;
+	margin-bottom: 50px;
+	text-align: center;
+}
+footer .zi h2{
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+footer .zi p{
+	 font-size: 14px;
+     color: #55575d;
+     line-height: 22px;
+
+}
+
+footer .content{
+	/*height: 200px;*/
+	/*background: red;*/
+	border-bottom: none;
+	border-right: none;
+	padding:10px 10px;
+}
+footer ul li:nth-child(2){
+	border-right: none;
+	padding:20px;
+}
+footer .bbb{
+	display: block;
+	width: 100%;
+	height: 46px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-left: 5px;
+
+}
+footer .bbb:focus{
+	outline: none;
+}
+footer textarea{
+	width: 100%;
+	height: 166px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	resize: none;
+}
+footer textarea:focus{
+	outline: none;
+}
+footer .aaa{
+	display: block;
+	/*width: 100%;*/
+	/*height: 46px;*/
+	/*margin-bottom: 20px;
+	margin-top: 10px;*/
+	padding-left: 5px;
+	
+
+}
+footer .aaa:focus{
+	outline: none;
+}
+.footer-right{
+	width: 100%;
+	height: 60px;
+	/*background: red;*/
+	margin-bottom:30px; 
+	
+}
+.footer-right img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+}
+.footer-right p{
+	display: block;
+	float: left;
+}
+.footer-bottom{
+	background: #000;
+	padding-top: 60px;
+	padding-bottom:60px;
+	position: relative;
+}
+
+.footer-bottom .content{
+	/*background: red;*/
+	font-size: 14px;
+}
+.footer-five{
+	width: 30px;
+	height: 30px;
+	background: #888;
+	border-radius: 50%;
+	margin-left: 4px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 10px;
+}
+footer{
+	padding-top: 120px;
+	background: #fff;
+	/* padding-left: 12px; */
+}
+footer .content{
+	/*height: 200px;*/
+	/*background: red;*/
+	border-bottom: none;
+	border-right: none;
+	/* padding:10px 10px; */
+}
+footer ul li:nth-child(2){
+	border-right: none;
+	padding:20px;
+}
+footer .bbb{
+	display: block;
+	width: 100%;
+	height: 46px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding-left: 5px;
+
+}
+footer .bbb:focus{
+	outline: none;
+}
+footer textarea{
+	width: 100%;
+	height: 166px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	resize: none;
+}
+footer textarea:focus{
+	outline: none;
+}
+footer .aaa{
+	display: block;
+	/*width: 100%;*/
+	/*height: 46px;*/
+	/*margin-bottom: 20px;
+	margin-top: 10px;*/
+	padding-left: 5px;
+	
+
+}
+footer .aaa:focus{
+	outline: none;
+}
+.footer-right{
+	width: 100%;
+	height: 60px;
+	/*background: red;*/
+	margin-bottom:30px; 
+	
+}
+.footer-right img{
+	display: block;
+	width: 60px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+}
+.footer-right p{
+	display: block;
+	float: left;
+}
+.footer-bottom{
+	background: #000;
+	padding-top: 60px;
+	padding-bottom:60px;
+	position: relative;
+}
+
+.footer-bottom .content{
+	/*background: red;*/
+	font-size: 14px;
+}
+footer .footer-bottom .footer-five{
+	width: 40px;
+	height: 40px;
+	background: #888;
+	border-radius: 50%;
+	margin-left: 4px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 10px!important;
+}
+footer .footer-bottom ul li:nth-child(2){
+	padding:0px;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.footer-bottom p{
+	color: white;
+}
+.footer-five:hover{
+	background: #6AED5C;
+}
+.footer-five:hover i{
+	color: white;
+}
+.hezi{
+	width: 50px;
+	height: 50px;
+	background: #000;
+	transform: rotate(45deg);
+	position: absolute;
+	left:0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: -25px;
+}
+
+/* .zuo .tu img{
+	width: 100%;
+	height: 100%;
+} */
+
+/* 手机端 <768px col-xs-*/
+@media screen and (max-width: 768px){
+	.about-zi{
+		margin-top: 20px;
+	}
+	.ji .tu .tu1{
+	width: 100%;
+}
+}
+/* 平板端 768-992 col-sm-*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+}
+/* pc小屏 992-1200 col-md-*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+/* pc大屏 >1200 col-lg*/
+@media screen and (min-width: 1200px){
+
+}

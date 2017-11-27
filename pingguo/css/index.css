@@ -1,0 +1,608 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+img{
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+/* 超大屏 */
+.top{
+	width:100% ;
+	height: 40px;
+	background-color: #444;
+}
+.top .adver{
+	width: 976px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: right;
+	line-height: 40px;
+	font-size: 12px;
+	color:#a8a8aa ;
+}
+.nav{
+	width: 100%;
+	height: 44px;
+	background-color:#323232;
+}
+.nav .con1{
+	width:1000px ;
+	height: 44px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.nav .con1 .btn{
+	width: auto;
+	height: 44px;
+	line-height: 44px;
+	font-size: 14px;
+}
+.nav a{
+	display: block;
+	width: auto;
+	height: 44px;
+	padding: 0 10px;
+	color: white;
+}
+.nav a:hover{
+	color: #ccc;
+}
+.nav .con2{
+	width: ;
+	height: 44px;
+	margin: 0 auto;
+	display: none;
+}
+.nav .con2 .btn2{
+	width: auto;
+	height: 44px;
+}
+.ipX{
+	width: 100%;
+	height: 580px;
+	text-align: center;
+	background-image: url("../img/X1.jpg");
+	background-size: 909px 194px;
+	background-repeat: no-repeat;
+	background-position:center 277px;
+	margin-bottom: 12px;
+	background-color: #FAFAFA;
+}
+.ipX h1{
+	font-size: 56px;
+	font-weight: 600;
+	color: #111;
+	font-style: normal;
+	padding-top:88px ;
+}
+.ipX h2{
+	margin-top: 8px;
+	font-size: 27px;
+	font-weight: 400;
+	color: #111;
+}
+.ip8{
+	width: 100%;
+	height: 580px;
+	text-align: center;
+	background-image: url("../img/iphone_8_large.jpg");
+	background-size: 561px 395px;
+	background-repeat: no-repeat;
+	background-position:center 186px;
+	background-color: #F9F0EB;
+	margin-bottom: 12px;
+}
+.ip8 h1{
+	font-size: 56px;
+	font-weight: 600;
+	color: #111;
+	font-style: normal;
+	padding-top:55px ;
+}
+.ip8 h2{
+	margin-top: 8px;
+	font-size: 27px;
+	font-weight: 400;
+	color: #111;
+}
+.ipw{
+	width: 100%;
+	height: 580px;
+	text-align: center;
+	background-image: url("../img/watch_large.jpg");
+	background-size: 767px 341px;
+	background-repeat: no-repeat;
+	background-position:center 197px;
+	background-color: #FAFAFA;
+	overflow: hidden;
+}
+.ipw h1{
+    width: 182px;
+    height: 72px;
+    margin: 0 auto;
+	background-image: url("../img/watch_series_3_large.png");
+	background-size: 182px 72px;
+	background-repeat: no-repeat;
+	margin-top: 38px;
+}
+.ipw h2{
+	margin-top: 8px;
+	font-size: 27px;
+	font-weight: 400;
+	color: #111;
+}
+.boxx{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.boxx .but{
+	width: 50%;
+	height: 598px;
+	float: left;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: white;
+	text-align: center;
+	background-color: #FAFAFA;
+}
+.boxx .but h3{
+	font-size: 40px;
+	font-weight: 600;
+	color: #111;
+	font-style: normal;
+	padding-top:52px ;
+
+}
+.boxx .but .er{
+		display: inline-block;
+}
+.boxx .but h4{
+	margin-top: 4px;
+	font-size: 21px;
+	font-weight: 400;
+	color: #111;
+}
+.boxx .but .ip{
+	display: inline-block;
+}
+.boxx .but1{
+	border-width: 12px 6px 6px 12px;
+	background-image: url("../img/trade_up_large.jpg");
+	background-size: 1262px 580px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.boxx .but2{
+	border-width: 12px 12px 6px 6px;
+	background-image: url("../img/ipad_pro_large.jpg");
+	background-size: 510px 146px;
+	background-position: center 300px;
+	background-repeat: no-repeat;
+}
+.boxx .but3{
+	border-width: 6px 6px 12px 12px;
+	background-image: url("../img/imac_large.jpg");
+	background-size: 438px 309px;
+	background-position:  center 200px;
+	background-repeat: no-repeat;
+}
+.boxx .but4{
+	border-width: 6px 12px 12px 6px;
+	background-image: url("../img/accessories_large.jpg");
+	background-size: 659px 380px;
+	background-position: center 200px;
+	background-repeat: no-repeat;
+}
+.d{
+	width: 100%;
+	height: 397px;
+	background-color: #F2F2F2;
+	overflow: hidden;
+}
+.d .nav-t{
+	width:980px ;
+	height: 245px;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding: 0 22px;
+	display: flex;
+	justify-content: space-between;
+}
+.d .nav-t .lie{
+	width: 20%;
+	height: auto;
+}
+
+.d .nav-t .lie h6{
+	font-size: 11px;
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.d .nav-t .lie ul{
+	margin-right:20px ;
+}
+.d .nav-t .lie li{
+	font-size: 11px;
+	margin-bottom: 6px;
+	font-weight: 400;
+}
+.d .nav-t .lie li a{
+	color: #333;
+}
+.d .nav-t .lie .tt{
+	margin-bottom: 28px;
+}
+.d .nav-b{
+	width:980px ;
+	height: 52px;
+	padding: 34px 0 21px 0;
+	margin: 0 auto;
+}
+.d .nav-b .shop{
+	width: 980px;
+	height: 16px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 7px;
+	font-size: 10px;
+	color: #888;
+}
+.d .nav-b .copy{
+	width: auto;
+	height: auto;
+	color: #888;
+	line-height: 22px;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.d .nav-b .copy .left{
+	width: auto;
+	font-size: 10px;
+	height: 22px;
+	float: left;
+		line-height: 22px;
+}
+.d .nav-b .copy .right{
+	width: auto;
+	height: 22px;
+	float: left;
+	line-height: 22px;
+	margin-bottom: 5px;
+}
+.d .nav-b .copy .right a{
+	font-size: 10px;
+	color: #888;
+	border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    display: inline-block;
+/*     margin-bottom: 3px; */
+}
+.d .nav-b .copy .dizhi{
+	float: right;
+	line-height: 22px;
+}
+.d .nav-b .copy .dizhi a{
+	float: left;
+}
+.d .nav-b .copy .dizhi span{
+	float: left;
+}
+.d .nav-b p{
+	font-size: 10px;
+	color: #888;
+}
+.d .nav-b p a{
+	color: #888;
+}
+.d .nav-tt{
+		display: none;
+	}
+/* 主体大屏 */
+@media screen and (max-width:1069px){
+	.ipX{
+	width: 100%;
+	height: 569px;
+	background-image: url("../img/X2.jpg");
+	background-size: 704px 148px;
+	background-repeat: no-repeat;
+	background-position:center 280px;
+}
+	.ipX h1{
+	font-size: 44px;
+	padding-top:110px ;
+}
+	.ipX h2{
+	margin-top: 6px;
+	font-size: 24px;
+}
+	.ip8{
+	width: 100%;
+	height: 569px;
+	background-image: url("../img/iphone_8_medium.jpg");
+	background-size: 549px 388px;
+	background-repeat: no-repeat;
+	background-position:center 182px;
+}
+	.ip8 h1{
+	font-size: 44px;
+	padding-top:74px ;
+}
+	.ip8 h2{
+	margin-top: 6px;
+	font-size: 24px;
+}
+	.ipw{
+	width: 100%;
+	height: 569px;
+	background-image: url("../img/watch_medium.jpg");
+	background-size: 762px 339px;
+	background-repeat: no-repeat;
+	background-position:center 184px;
+}
+	.ipw h1{
+	width: 182px;
+    height: 72px;
+    margin: 0 auto;
+	background-image: url("../img/watch_series_3_large.png");
+	background-size: 182px 72px;
+	background-repeat: no-repeat;
+	margin-top: 64px;
+}
+	.ipw h2{
+	margin-top: 6px;
+	font-size: 24px;
+}
+	.boxx .but{
+		width: 50%;
+		height: 580px;
+	}
+	.boxx .but h3{
+		font-size: 32px;
+		padding-top:42px ;
+		display: block;
+	}
+	.boxx .but .er{
+		display: block;
+}
+	.boxx .but .er1{
+		padding: 0;
+	}
+	.boxx .but h4{
+		margin-top: 3px;
+		font-size: 19px;
+	}
+	.boxx .but .ip{
+	display: block;
+	}
+	.boxx .but1{
+		background-image: url("../img/trade_up_medium.jpg");
+		background-size: 516px 496px;
+		background-position: center 66px;
+		background-repeat: no-repeat;
+	}
+	.boxx .but2{
+		background-image: url("../img/ipad_pro_medium.jpg");
+		background-size: 318px 91px;
+		background-position: center 220px;
+	}
+	.boxx .but3{
+		background-image: url("../img/imac_medium.jpg");
+		background-size: 308px 217px;
+		background-position:  center 150px;
+	}
+	.boxx .but4{
+		background-image: url("../img/accessories_medium.jpg");
+		background-size: 516px 347px;
+		background-position: center 214px;
+	}
+}
+
+/* 底部栏1040px变化点 */
+@media screen and (max-width:1040px){
+.d{
+	width: 100%;
+	height: 410px;
+	background-color: #F2F2F2;
+	overflow: hidden;
+	padding: 0 22px;
+	box-sizing: border-box;
+}
+.d .nav-t{
+	width:100% ;
+	height: 245px;
+	margin-top: 40px;
+}
+.d .nav-b .shop{
+	width: 100%;
+}
+}
+/* 广告栏大屏 */
+@media screen and (max-width:1024px){
+	.top .adver{
+		width: auto;
+		height: 40px;
+		margin: 0 10px;
+	}
+}
+/* nav大屏 */
+@media screen and (max-width:1020px){
+	.nav .con1{
+		width: auto;
+		height: 44px;
+		margin: 0 10px;
+	}
+}
+/* nav变化中屏 */
+@media screen and (max-width: 767px){
+	.nav .con1{
+		display: none;
+	}
+	.nav .con2{
+		width:100%;
+		height: 44px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	.nav .con2 .btn2{
+		width: auto;
+		height: 44px;
+	}
+	.nav .con2 .btn2 .tiao1{
+		width: 17px;
+		height: 1px;
+		background-color: white;
+		margin-top:20px ;
+	}
+	.nav .con2 .btn2 .tiao2{
+		width: 17px;
+		height: 1px;
+		background-color: white;
+		margin-top:7px ;
+	}
+
+}
+
+
+/* 小屏 */
+@media screen  and (max-width: 735px){
+	.ipX{
+		width: 100%;
+		height: 500px;
+		background-image: url("../img/X3.jpg");
+		background-size: 167px 333px;
+		background-repeat: no-repeat;
+		background-position:center 130px;
+}
+	.ipX h1{
+		font-size: 32px;
+		padding-top:46px ;
+}
+	.ipX h2{
+		margin-top: 4px;
+		font-size: 19px;
+}
+	.ip8{
+		width: 100%;
+		height: 500px;
+		background-image: url("../img/iphone_8_small.jpg");
+		background-size: 267px 357px;
+		background-repeat: no-repeat;
+		background-position:center 143px;
+}
+	.ip8 h1{
+		font-size: 32px;
+		padding-top:40px ;
+}
+	.ip8 h2{
+		margin-top: 4px;
+		font-size: 19px;
+}
+	.ipw{
+		width: 100%;
+		height: 500px;
+		background-image: url("../img/watch_small.jpg");
+		background-size: 302px 338px;
+		background-repeat: no-repeat;
+		background-position:center 140px;
+	}
+	.ipw h1{
+		width: 182px;
+    	height: 72px;
+    	margin: 0 auto;
+		background-image: url("../img/watch_series_3_large.png");
+		background-size: 182px 72px;
+		background-repeat: no-repeat;
+		margin-top: 37px;
+	}
+	.ipw h2{
+		margin-top: 4px;
+		font-size: 19px;
+	}
+	.boxx .but{
+		width: 100%;
+		height: 500px;
+	}
+	.boxx .but h3{
+		font-size: 32px;
+		padding-top:37px ;
+	}
+	.boxx .but .er{
+		display: inline-block;
+}
+	.boxx .but h4{
+		margin-top: 3px;
+		font-size: 19px;
+	}
+	.boxx .but1{
+		background-image: url("../img/trade_up_small.jpg");
+		background-size: 736px 500px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.boxx .but2{
+		background-image: url("../img/ipad_pro_small.jpg");
+		background-size: 299px 86px;
+		background-position: center 220px;
+	}
+	.boxx .but3{
+		background-image: url("../img/imac_small.jpg");
+		background-size: 290px 204px;
+		background-position:  center 150px;
+	}
+	.boxx .but4{
+		background-image: url("../img/accessories_small.jpg");
+		background-size: 736px 361px;
+		background-position: center 150px;
+	}
+
+	.d .nav-tt{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	.d .nav-t{
+		display: none;
+	}
+	.d .nav-tt h6{
+		height: 18px;
+		padding: 10px 0;
+		font-size:10px ;
+		font-weight: 400;
+		border-bottom: 1px solid #ccc;
+	}
+	.d .nav-b{
+	width:100% ;
+	height: 52px;
+	padding: 34px 0 21px 0;
+	margin: 0 auto;
+}
+.d .nav-b .shop{
+	width: 100%;
+	height: 16px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #d6d6d6;
+	margin-bottom: 7px;
+	font-size: 10px;
+	color: #888;
+}
+.d .nav-b .copy .left{
+	float: none;
+}
+.d .nav-b .copy .dizhi{
+	float: none;
+}
+.d .nav-b .copy .right{
+	float: none;
+}
+}
